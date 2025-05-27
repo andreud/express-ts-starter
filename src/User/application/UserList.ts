@@ -7,11 +7,11 @@ export class UserList {
         this.repository = repository;
     }
 
-    run(): User[] {
-        return [];
-        /*return new Promise((res, rej)=>{
-            res(this.repository.list())
-        })*/
+    async run(): Promise<User[]> {
+        return new Promise((resolve, reject)=>{
+            resolve(this.repository.list());
+            //resolve([])
+        });
     }
 
 }

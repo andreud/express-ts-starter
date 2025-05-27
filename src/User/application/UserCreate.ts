@@ -7,8 +7,8 @@ export class UserCreate {
         this.repository = repository;
     }
 
-    run(user: User) {
+    async run(user: User) {
         this.repository.create(user);
-    }    
+    }
 
 }
