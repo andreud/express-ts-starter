@@ -1,0 +1,16 @@
+name: Run the tests
+
+on:
+  push: 
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.9.1
+      - name: Run the test command
+        run: npm run test
