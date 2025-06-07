@@ -26,4 +26,3 @@ Generated tsconfig.json:
 - Demo entities
 - Demo tests
 - Docker image
-- .env based config
