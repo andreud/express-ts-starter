@@ -1,8 +1,8 @@
 # How Node.js was setup for TypeScript
 
-Installed dev dependencies (nodemon uses ts-node)
+Installed dev dependencies
     
-    $ npm i -d tsx ts-node nodemon @types/express
+    $ npm i -d tsx @types/express
 
 Generated tsconfig.json:
 
