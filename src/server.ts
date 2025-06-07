@@ -1,5 +1,5 @@
 import app from "./app";
-import envs from "./config/envs";
+import envs from "./Shared/config/envs";
 
 const nodeEnv = envs.NODE_ENV || 'dev';
 const port = envs.PORT || 8080;
