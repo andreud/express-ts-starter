@@ -1,6 +1,7 @@
 import User from '../domain/User';
 import UserRepository from '../domain/UserRepository';
 
+
 export default class InMemoryUserRepository implements UserRepository{
 
     private users: User[] = [];
