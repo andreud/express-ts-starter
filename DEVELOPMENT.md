@@ -1,15 +1,28 @@
 # How Node.js was setup for TypeScript
 
-Installed dev dependencies
-    
+## Installed dev dependencies
+
+Basic:     
+
     $ npm i -D tsx @types/express 
+
+Jest, supertest:
+
+    $ npm i -D ts-jest
+    $ npm i -D @jest/globals
+    $ npm i -D @types/jest #  Third party alternative to @jest/globals, desnt need to be implictly imported.
+    $ npm i -D @types/supertest
+    
+ESLint:
+
     $ npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+    
 
-
-Generated tsconfig.json:
+### Generated config files:
 
     $ npx tsc --init
     $ npx eslint --init # It installs @eslint/js, globals, typescript-eslint
+    $ npm init jest@latest
 
 
 ## Notes on ESLint related packages

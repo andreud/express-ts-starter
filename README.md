@@ -1,6 +1,6 @@
 # Express TypeScript Starter
 
-Starter template for Express + TypeScript based apps or APIs
+Starter template for creating Express + TypeScript based apps or APIs
 
 ## Features
 
